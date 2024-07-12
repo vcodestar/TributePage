@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #552583; 
+    color: #FDB927; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FDB927; 
+}
+
+
+#title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FDB927; 
+    margin-bottom: 20px;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+#image {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+#tribute-link {
+    font-weight: 700;
+    width: 100%;
+    margin-top: 50px;
+    color: 552583;
+    background-color: #FDB927;
+    padding: 10px; 
+    text-decoration: none;
+}
+
+#img-caption {
+    display: none;
+}
+
+#tribute-info {
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: #FDB927; 
+}
+
+#tribute-text {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 20px; 
+    margin: 0 auto; 
+}
